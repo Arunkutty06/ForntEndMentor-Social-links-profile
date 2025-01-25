@@ -10,8 +10,10 @@
     src: url("assets\fonts\static\Inter-Bold.ttf");
 }
 body{
-    justify-items: center;
-    margin-top: 125px;
+    display: grid;  
+    place-content: center;
+    min-height: 100vh;
+    
 }
 .container{
     background-color: hsl(0, 0%, 12%);
